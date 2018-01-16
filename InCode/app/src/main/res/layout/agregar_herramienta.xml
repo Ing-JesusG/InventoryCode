@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Agregar Herramienta:"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/cantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginStart="30dp"
+            android:text="Cantidad:"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/cantidadH"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:hint="#"
+            android:inputType="text"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/black_overlay"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/nombre"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:hint="#"
+            android:inputType="text"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/black_overlay"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tvmarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginStart="30dp"
+            android:text="Marca:"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText
+            android:id="@+id/marca"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/black_overlay"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Listo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/black_overlay"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="Listo"
+        android:onClick="listo"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

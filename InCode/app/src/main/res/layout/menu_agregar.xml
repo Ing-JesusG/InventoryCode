@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor" >
+
+    <Button
+        android:id="@+id/btnagregar_caja"
+        android:onClick="cajaH"
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:minWidth="330dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black_overlay"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/menuAgregar_Caja"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btnagregar_herramienta"
+        android:onClick="herramienta"
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:minWidth="330dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black_overlay"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/menuAgregar_Herramienta"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btnagregar_equipo"
+        android:onClick="equipo"
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:minWidth="330dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black_overlay"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/menuAgregar_Equipo"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btnagregar_proyecto"
+        android:onClick="proyecto"
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:minWidth="330dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black_overlay"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/menuAgregar_Proyecto"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btnagregar_Personal"
+        android:onClick="personal"
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:minWidth="330dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black_overlay"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/menuAgregar_Personal"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

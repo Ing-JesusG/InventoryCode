@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <ImageView
+        android:id="@+id/logo"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <Button
+        android:id="@+id/btnagregar"
+        android:onClick="menuAgregar"
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:minWidth="330dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_grad"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="@string/menuAgregar"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:onClick="menuConsultar"
+
+        android:layout_width="wrap_content"
+        android:minWidth="330dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:background="@drawable/list_grad"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/menuConsultar"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btnEscanear"
+        android:onClick="escanear_codigo"
+
+        android:layout_width="wrap_content"
+        android:minWidth="330dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:background="@drawable/list_grad"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/menuEscanearQR"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:onClick="cerrarSesion"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cerrarSesion"
+        android:layout_marginTop="20dp"
+        android:background="@color/backgroundColor"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:textSize="10sp" />
+
+</LinearLayout>
