@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#79A826</color>
-    <color name="colorPrimaryDark">#1B5E20</color>
-    <color name="colorAccent">#9CCC65</color>
-    <color name="backgroundColor">#2D2D2D</color>
-    <color name="black_overlay">#263238</color>
-    <color name="Colorgradle">#006064</color>
-    <color name="colorTextButton">#FF6700</color>
-    <color name="naranjaClaro">#FF8D40</color>
-    <color name="naranjaObscuro">#632800</color>
-    <color name="grisObscuro">#000000</color>
-    <color name="grisClaro">#666666</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
 </resources>

@@ -1,28 +1,3 @@
 <resources>
-
-    <string name="app_name">INCODE</string>
-    <string name="registro">Registrarse</string>
-    <string name="usuario">Usuario</string>
-    <string name="contrasena">**********</string>
-    <string name="inicioSesion">Inicar Sesión</string>
-    <string name="menuAgregar" > Agregar </string>
-    <string name="menuConsultar" >Consultar </string>
-    <string name="menuEscanearQR"> Escanear QR </string>
-    <string name="cerrarSesion" > Cerrar Sesión </string>
-    <string name="menuAgregar_Caja"> Caja de Herramietas</string>
-    <string name="menuAgregar_Herramienta">Herramieta</string>
-    <string name="menuAgregar_Equipo">Equipo</string>
-    <string name="menuAgregar_Proyecto">Proyecto</string>
-    <string name="menuAgregar_Personal">Personal</string>
-    <string name="num_Caja">Número de caja: </string>
-    <string name="nombre"> Nombre: </string>
-    <string name="cantidad"> Cantidad: </string>
-    <string name="marca"> Marca: </string>
-    <string name="tipo"> Tipo: </string>
-    <string name="herramienta"> Herramienta: </string>
-    <string name="equipo"> Equipo: </string>
-    <string name="gato"> # </string>
-    <string name="datos"> datos </string>
-    <string name="NOMBRE">NOMBRE</string>
-    <string name="CONTRA">CONTRA</string>
+    <string name="app_name">InCode</string>
 </resources>
